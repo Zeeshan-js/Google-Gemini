@@ -1,0 +1,88 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#-----IGNORE----#
+
+# -------------------
+# Node.js backend
+# -------------------
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Environment files
+.env
+.env.* # includes .env.local, .env.production etc.
+
+# Database dumps
+*.sql
+*.sqlite
+*.bson
+*.mongo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# PM2 logs
+*.log
+pids/
+*.pid
+
+# -------------------
+# React frontend (if in subdirectory like /client)
+# -------------------
+client/node_modules/
+client/build/
+client/.env
+
+# -------------------
+# Optional: ignore uploads or media
+# -------------------
+uploads/
+public/uploads/
+tmp/
